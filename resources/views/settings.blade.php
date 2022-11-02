@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyARDX6U-QGrtp9nfV0BAdbt6bgcDJZ_0zc&libraries=places&callback=initMap" async defer>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=xxx&libraries=places&callback=initMap" async defer>
     </script>
 
     <div class="col-xs-12" style="text-align:center;">
