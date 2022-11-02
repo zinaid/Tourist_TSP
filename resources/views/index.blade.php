@@ -389,7 +389,7 @@
 			}); 
 		}); 
 	</script>
-     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyARDX6U-QGrtp9nfV0BAdbt6bgcDJZ_0zc&libraries=places&callback=initMap"
+     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=xxxx&libraries=places&callback=initMap"
         async defer>
 	</script>
 	<div class="app-bar-bottom" style="z-index:3;">
