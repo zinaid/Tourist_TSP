@@ -1,0 +1,240 @@
+html {
+overflow-x: hidden!important;
+}
+.form-horizontal {
+	margin-top: 5px;
+	margin-bottom: 90px;
+}
+.navbar-toggler:focus {
+	outline: none;
+}
+.navbar-toggler:hover {
+	background: none;
+}
+
+/* The sidebar menu */
+.sidebar {
+	height: 100%;
+	/* 100% Full-height */
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	/* Stay in place */
+	z-index: 5;
+	/* Stay on top */
+	top: 0px;
+	left: 0;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.6);
+	background-blend-mode: lighten;
+	opacity: 0.9;
+	background-color: #41295a;
+	/* Black*/
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 10px;
+	/* Place content 60px from the top */
+	transition: 0.5s;
+	/* 0.5 second transition effect to slide in the sidebar */
+}
+/* The sidebar links */
+
+.sidebar a {
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+	font-size: 75px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	;
+	text-align: center;
+}
+/* When you mouse over the navigation links, change their color */
+
+.sidebar a:hover {
+	color: #f1f1f1;
+}
+/* Position and style the close button (top right corner) */
+
+.sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+/* The button used to open the sidebar */
+
+.openbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+}
+.sidebar p {
+	margin: 0 0 10px;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+	transition: margin-left .5s;
+	/* If you want a transition effect */
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+	.sidebar {
+		padding-top: 15px;
+	}
+	.sidebar a {
+		font-size: 18px;
+	}
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Slack-Larsseit!important;
+	background: #d5cfcf!important;
+}
+.opendugme {
+	font-size: 30px;
+	position: absolute;
+	color: #41295a;
+	right: 20px;
+	top: 10px;
+	background: none;
+	border: none;
+}
+.closebtn {
+	font-size: 30px;
+	position: absolute;
+	color: white;
+	right: 10px;
+	top: 10px;
+	background: none;
+	border: none;
+}
+.opendugme_list {
+	font-size: 30px;
+	position: absolute;
+	color: #41295a;
+	right: 20px;
+	top: 10px;
+	background: none;
+	border: none;
+}
+.closebtn_list {
+	font-size: 30px;
+	position: absolute;
+	color: white;
+	right: 10px;
+	top: 10px;
+	background: none;
+	border: none;
+}
+.tutorial {
+	font-size: 30px;
+	position: absolute;
+	color: white;
+	left: 20px;
+	top: 10px;
+	background: none;
+	border: none;
+}
+.top_menu {
+	position: relative;
+	z-index: 3;
+	font-size: 20px;
+}
+.top_menu_left {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	font-size: 25px;
+}
+.top_menu_right {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	font-size: 25px;
+}
+.top_menu_adder {
+	position: absolute;
+	top: 70px;
+	right: 45px;
+	border: none;
+	display: none;
+}
+.back_route {
+	font-size: 30px;
+	position: absolute;
+	color: #41295a;
+	right: 40px;
+	top: 10px;
+	background: none;
+	border: none;
+}
+.settings_header {
+	color: #41295a;
+	text-align: center;
+}
+.radio {
+	display: inline-block;
+}
+.roundedOne {
+	width: 28px;
+	height: 28px;
+	position: relative;
+	margin: 20px auto;
+	background: #fcfff4;
+	background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	border-radius: 50px;
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.roundedOne label {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+	border-radius: 50px;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+}
+.roundedOne label:after {
+	content: '';
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	background: #27ae60;
+	background: linear-gradient(to bottom, #27ae60 0%, #145b32 100%);
+	opacity: 0;
+	border-radius: 50px;
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.roundedOne label:hover::after {
+	opacity: 1;
+}
+.roundedOne input[type=radio] {
+	visibility: hidden;
+}
+.roundedOne input[type=radio]:checked+label:after {
+	opacity: 1;
+}
+button {
+	background: transparent;
+	border: none;
+}
+label {
+	font-size: 12px;
+}
+legend {
+	font-size: 15px;
+	font-weight: 0bold;
+}

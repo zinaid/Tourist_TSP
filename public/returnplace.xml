@@ -1,0 +1,23 @@
+  // Start XML file, create parent node
+		
+		$location = Location::all();
+		
+		// $dom = new DOMDocument("1.0");
+		// $node = $dom->createElement("markers");
+		// $parnode = $dom->appendChild($node);
+		
+		// foreach ($location as $l) {
+			// $node = $dom->createElement("marker");
+			// $newnode = $parnode->appendChild($node);
+			// $newnode->setAttribute("id",$l->id);
+			// $newnode->setAttribute("name",$l->name);
+			// $newnode->setAttribute("address", $l->place_Location);
+			// $newnode->setAttribute("lat",  $l->place_Lat);
+			// $newnode->setAttribute("lng", $l->place_Lng);
+		// }
+
+		// echo $dom->saveXML();
+		
+		foreach ($location as $l){
+			echo $l->id;
+		}
