@@ -1,4 +1,4 @@
-# Tourist_TSP
+# Tourist_TSP (2019)
 ## Application that solves traveling salesman problem using genetic algorithm and is used for tourism purposes.
 
 Published: https://www.researchgate.net/publication/346041240_Implementation_of_the_genetic_algorithm_in_an_application_for_solving_a_traveling_salesman_problem
